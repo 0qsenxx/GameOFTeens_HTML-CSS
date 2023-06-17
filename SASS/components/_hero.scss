@@ -1,0 +1,51 @@
+.hero {
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-size: cover;
+    height: 831px;
+    background-image: url(../../images/IMAGE.jpg);
+}
+
+.hero__title {
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+
+.hero__description {
+    font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
+max-width: 650px;
+margin-top: 10px;
+margin-bottom: 35px;
+}
+
+.hero__button {
+    background: #292F36;
+border: 2px solid #292F36;
+border-radius: 18px;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.72px;
+color: #FFFFFF;
+padding-top: 22px;
+padding-bottom: 22px;
+padding-left: 34px;
+padding-right: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero-button__svg {
+    margin-left: 18px;
+    fill: #cda274;
+}

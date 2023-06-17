@@ -1,0 +1,30 @@
+.sponsors{
+    padding-bottom: 80px;
+}
+
+.sponsors__title {
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 62px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+
+.sponsors__list {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors__item {
+    max-width: 300px;
+
+    &:nth-child(4) {
+        max-width: 100px;
+    }
+}
